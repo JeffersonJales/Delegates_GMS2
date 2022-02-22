@@ -1,4 +1,6 @@
 /// @description EXAMPLE
+
+
 delegate = new Delegate();
 
 test = function(){
@@ -24,17 +26,3 @@ delegate
 .add(teste, ["Hello World!"])
 .add(teste2, ["Hello!", "I'm the world"])
 .add(test3);
-
-delegate.invoke();
-
-delegate
-.remove(teste2)
-.remove(teste);
-
-delegate.invoke();
-delegate.clear();
-
-delegate.invoke();
-
-
-game_end();

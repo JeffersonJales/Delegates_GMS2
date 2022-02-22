@@ -17,7 +17,7 @@ function Delegate () constructor {
 			delegates[i++].invoke();
 	}
 	
-	/// @description With this function you cam remove a callback from the delegate
+	/// @description With this function you cam add a callback to the delegate
 	/// @param {Function} callback A function index to add to the delegate
 	/// @param {Array} array_args An array with the functions arguments
 	/// @return {Self}
@@ -59,10 +59,9 @@ function Delegate () constructor {
 }
 
 
-/// Pretend it doesn't exists
 function __DelegateCallback (target, callback, args_arr = []) constructor {
 	__callback = callback;
-	__callback_method = method(target, callback);
+	__callback_method = method(target, callback); 
 	__callback_method_index = method_get_index(__callback_method);
 	__callback_args = args_arr;
 	
