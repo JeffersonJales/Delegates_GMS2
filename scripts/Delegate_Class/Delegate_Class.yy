@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "delegates",
+    "path": "delegates.yyp",
   },
   "resourceVersion": "1.0",
   "name": "Delegate_Class",

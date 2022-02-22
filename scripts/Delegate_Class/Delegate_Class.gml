@@ -1,5 +1,8 @@
+/// Made by @jalesjefferson
+/// https://github.com/JeffersonJales/Delegates_GMS2
+
 /// LIMITATIONS -> Delegates don`t work with Build in functions, so you will have to wrap up the build-in
-/// function with another function
+/// function with another custom function
 
 function Delegate () constructor {
 	
@@ -56,7 +59,7 @@ function Delegate () constructor {
 }
 
 
-/// Pretend doesn't exists
+/// Pretend it doesn't exists
 function __DelegateCallback (target, callback, args_arr = []) constructor {
 	__callback = callback;
 	__callback_method = method(target, callback);
