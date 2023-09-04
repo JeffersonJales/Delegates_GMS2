@@ -1,28 +1,35 @@
 /// @description EXAMPLE
-
-
-delegate = new Delegate();
-
-test = function(){
-	show_debug_message("HELLO WORLD CARALHO");
+print = function(txt){
+	show_debug_message(txt);	
 }
 
-teste = function(text){
-	show_debug_message(text);
+_del = delegate();
+
+test_1 = function(){
+	print("test_1");
+	print("HELLO WORLD =)");
 }
 
-teste2 = function(text1, text2){
-	show_debug_message(text1);
-	show_debug_message(text2);
+test_2 = function(text){
+	print("test_2");
+	print(text);
 }
 
-test3 = function(){
-	show_debug_message("Jump");
-	show_debug_message("");
+test_3 = function(text1, text2){
+	print("test_3");
+	print(text1);
+	print(text2);
+	print("END")
+	print("")
 }
 
-delegate
-.add(test)
-.add(teste, ["Hello World!"])
-.add(teste2, ["Hello!", "I'm the world"])
-.add(test3);
+test_4 = function(){
+	_del.remove(test_1).remove(test_2).remove(test_4);
+}
+
+
+_del
+.add(test_1)
+.add(test_2, "Hello World!")
+.add(test_3, "Hello! I'm the world")
+.add(test_4)

@@ -1,0 +1,12 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Delegate","order":14,"path":"folders/Delegate.yy",},
+    {"name":"System","order":2,"path":"folders/Delegate/System.yy",},
+    {"name":"Example","order":15,"path":"folders/Example.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"delegate","order":1,"path":"scripts/delegate/delegate.yy",},
+    {"name":"DeletateCallbackClass","order":1,"path":"scripts/DeletateCallbackClass/DeletateCallbackClass.yy",},
+    {"name":"Room1","order":1,"path":"rooms/Room1/Room1.yy",},
+  ],
+}

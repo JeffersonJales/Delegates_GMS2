@@ -1,2 +1,2 @@
 /// @description Delegate invoke
-delegate.invoke();
+_del.invoke("Pressed Invoke");

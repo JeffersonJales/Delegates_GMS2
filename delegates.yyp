@@ -1,44 +1,37 @@
 {
-  "resources": [
-    {"id":{"name":"Delegate_Class","path":"scripts/Delegate_Class/Delegate_Class.yy",},"order":11,},
-    {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},"order":13,},
-    {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},"order":10,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":12,},
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "delegates",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
-  "Options": [
-    {"name":"Android","path":"options/android/options_android.yy",},
-    {"name":"HTML5","path":"options/html5/options_html5.yy",},
-    {"name":"iOS","path":"options/ios/options_ios.yy",},
-    {"name":"Linux","path":"options/linux/options_linux.yy",},
-    {"name":"macOS","path":"options/mac/options_mac.yy",},
-    {"name":"Main","path":"options/main/options_main.yy",},
-    {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
-    {"name":"Windows","path":"options/windows/options_windows.yy",},
-    {"name":"Windows UWP","path":"options/windowsuap/options_windowsuap.yy",},
-    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
-  ],
-  "isDnDProject": false,
-  "isEcma": false,
   "configs": {
-    "name": "Default",
     "children": [],
+    "name": "Default",
   },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Delegate","folderPath":"folders/Delegate.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"System","folderPath":"folders/Delegate/System.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Example","folderPath":"folders/Example.yy",},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.6.0.92",
+  },
+  "resources": [
+    {"id":{"name":"delegate","path":"scripts/delegate/delegate.yy",},},
+    {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},},
+    {"id":{"name":"DeletateCallbackClass","path":"scripts/DeletateCallbackClass/DeletateCallbackClass.yy",},},
+    {"id":{"name":"DelegateClass","path":"scripts/DelegateClass/DelegateClass.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
-  "Folders": [],
-  "AudioGroups": [
-    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
-  ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
-  "IncludedFiles": [],
-  "MetaData": {
-    "IDEVersion": "2022.1.1.610",
-  },
-  "resourceVersion": "1.4",
-  "name": "delegates",
-  "tags": [],
-  "resourceType": "GMProject",
 }
