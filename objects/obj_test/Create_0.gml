@@ -27,7 +27,6 @@ test_4 = function(){
 	_del.remove(test_1).remove(test_2).remove(test_4);
 }
 
-
 _del
 .add(test_1)
 .add(test_2, ["Hello World!"])
