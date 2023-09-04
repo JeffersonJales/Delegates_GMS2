@@ -1,5 +1,5 @@
-# Delegates_GMS2
-Delegates for Game Maker Studio 2.3+
+# Delegates
+Delegates for GameMaker
 
 Maintained by [@jalesjefferson](https://twitter.com/JalesJefferson)
 
@@ -9,22 +9,21 @@ Maintained by [@jalesjefferson](https://twitter.com/JalesJefferson)
 - [Download the .yymps](https://github.com/JeffersonJales/Delegates_GMS2/releases/download/1.0.0/Delegates.yymps)
 - Import the downloaded file to your project 
 
-# Functions
+# Function index
+- delegate - Returns a DelegateClass struct
 
-### `myvar = new Delegate()`  
-Instantiate a new Delegate struct to myvar
+## DelegateClass Function index
 
-### `myvar.add(callback, args_array = [])` 
-Add a new function to the Delegate. You can give an array with arguments to be parsed to this function when it is invoked 
+`add(_callback, _args = [])` - Add a new function to the Delegate. You can give an array with arguments to be parsed to this function when it is invoked.
 
-### `myvar.invoke()` 
-Execute all functions from the Delegate.
+`invoke()` - Execute all functions from the Delegate.
 
-### `myvar.remove(callback)` 
-Remove a previously added callback from the Delegate
+`remove(_callback)` - Remove a previously added callback from the Delegate
 
-### `myvar.clear()` 
-Remove all previously added callbacks from the Delegate
+`clear()` - Remove all previously added callbacks from the Delegate
 
-# [Example](https://github.com/JeffersonJales/Delegates_GMS2/releases/download/1.0.0/delegates_example.yyz)
+`change_callback(_callback, _new_callback)` - Change the given callback to another callback
 
+`change_callback_args(_callback, _new_args)` - Change the given callback arguments for new arguments
+
+`get_amount()` - return the amount of delagates callback
