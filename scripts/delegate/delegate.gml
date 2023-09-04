@@ -1,3 +1,3 @@
-function delegate(_scope = id){
-	return new DelegateClass(_scope);
+function delegate(){
+	return new DelegateClass();
 }

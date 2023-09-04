@@ -30,6 +30,6 @@ test_4 = function(){
 
 _del
 .add(test_1)
-.add(test_2, "Hello World!")
-.add(test_3, "Hello! I'm the world")
+.add(test_2, ["Hello World!"])
+.add(test_3, ["Hello!", "I'm the world"])
 .add(test_4)
